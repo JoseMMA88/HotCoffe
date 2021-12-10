@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143571B0276259BC007C3A16 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571AF276259BC007C3A16 /* OrdersTableViewController.swift */; };
+		143571B2276259EF007C3A16 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571B1276259EF007C3A16 /* AddOrderViewController.swift */; };
+		143571B427625D9F007C3A16 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571B327625D9E007C3A16 /* WebService.swift */; };
+		143571B627626337007C3A16 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571B527626337007C3A16 /* Order.swift */; };
+		143571B9276265B9007C3A16 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571B8276265B9007C3A16 /* OrderViewModel.swift */; };
+		143571BE27626D37007C3A16 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143571BD27626D37007C3A16 /* AddCoffeeOrderViewModel.swift */; };
 		14CFA408276257FA00963954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFA407276257FA00963954 /* AppDelegate.swift */; };
 		14CFA40A276257FA00963954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFA409276257FA00963954 /* SceneDelegate.swift */; };
-		14CFA40C276257FA00963954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFA40B276257FA00963954 /* ViewController.swift */; };
 		14CFA40F276257FA00963954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CFA40D276257FA00963954 /* Main.storyboard */; };
 		14CFA411276257FA00963954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CFA410276257FA00963954 /* Assets.xcassets */; };
 		14CFA414276257FA00963954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CFA412276257FA00963954 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143571AF276259BC007C3A16 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		143571B1276259EF007C3A16 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		143571B327625D9E007C3A16 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		143571B527626337007C3A16 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		143571B8276265B9007C3A16 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		143571BD27626D37007C3A16 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		14CFA404276257FA00963954 /* HotCoffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCoffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CFA407276257FA00963954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14CFA409276257FA00963954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14CFA40B276257FA00963954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14CFA40E276257FA00963954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14CFA410276257FA00963954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14CFA413276257FA00963954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143571B7276265A2007C3A16 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				143571B8276265B9007C3A16 /* OrderViewModel.swift */,
+				143571BD27626D37007C3A16 /* AddCoffeeOrderViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		14CFA3FB276257FA00963954 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +75,43 @@
 		14CFA406276257FA00963954 /* HotCoffe */ = {
 			isa = PBXGroup;
 			children = (
+				143571B7276265A2007C3A16 /* View Models */,
+				14CFA41D2762584F00963954 /* Models */,
+				14CFA41C2762584A00963954 /* Services */,
+				14CFA41B2762584300963954 /* Controllers */,
 				14CFA407276257FA00963954 /* AppDelegate.swift */,
 				14CFA409276257FA00963954 /* SceneDelegate.swift */,
-				14CFA40B276257FA00963954 /* ViewController.swift */,
 				14CFA40D276257FA00963954 /* Main.storyboard */,
 				14CFA410276257FA00963954 /* Assets.xcassets */,
 				14CFA412276257FA00963954 /* LaunchScreen.storyboard */,
 				14CFA415276257FA00963954 /* Info.plist */,
 			);
 			path = HotCoffe;
+			sourceTree = "<group>";
+		};
+		14CFA41B2762584300963954 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				143571AF276259BC007C3A16 /* OrdersTableViewController.swift */,
+				143571B1276259EF007C3A16 /* AddOrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		14CFA41C2762584A00963954 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				143571B327625D9E007C3A16 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14CFA41D2762584F00963954 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				143571B527626337007C3A16 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CFA40C276257FA00963954 /* ViewController.swift in Sources */,
+				143571B627626337007C3A16 /* Order.swift in Sources */,
+				143571BE27626D37007C3A16 /* AddCoffeeOrderViewModel.swift in Sources */,
 				14CFA408276257FA00963954 /* AppDelegate.swift in Sources */,
 				14CFA40A276257FA00963954 /* SceneDelegate.swift in Sources */,
+				143571B0276259BC007C3A16 /* OrdersTableViewController.swift in Sources */,
+				143571B427625D9F007C3A16 /* WebService.swift in Sources */,
+				143571B9276265B9007C3A16 /* OrderViewModel.swift in Sources */,
+				143571B2276259EF007C3A16 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
